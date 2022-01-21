@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A3D0952777F201008BAE0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3D0942777F201008BAE0E /* AppDelegate.swift */; };
+		F5A3D0972777F201008BAE0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3D0962777F201008BAE0E /* SceneDelegate.swift */; };
+		F5A3D0992777F201008BAE0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3D0982777F201008BAE0E /* ViewController.swift */; };
+		F5A3D09C2777F201008BAE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3D09A2777F201008BAE0E /* Main.storyboard */; };
+		F5A3D09E2777F201008BAE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A3D09D2777F201008BAE0E /* Assets.xcassets */; };
+		F5A3D0A12777F201008BAE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3D09F2777F201008BAE0E /* LaunchScreen.storyboard */; };
+		F5A3D0AC2777F201008BAE0E /* Syllabite_UI___Package_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3D0AB2777F201008BAE0E /* Syllabite_UI___Package_TestingTests.swift */; };
+		F5A3D0B62777F201008BAE0E /* Syllabite_UI___Package_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3D0B52777F201008BAE0E /* Syllabite_UI___Package_TestingUITests.swift */; };
+		F5A3D0B82777F201008BAE0E /* Syllabite_UI___Package_TestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3D0B72777F201008BAE0E /* Syllabite_UI___Package_TestingUITestsLaunchTests.swift */; };
+		F5AFAEF227792C6B0098D563 /* SwiftttCamera in Frameworks */ = {isa = PBXBuildFile; productRef = F5AFAEF127792C6B0098D563 /* SwiftttCamera */; };
+		F5AFAEFC277969440098D563 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AFAEFB277969440098D563 /* HistoryViewController.swift */; };
+		F5AFAF05277D00F50098D563 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5AFAF04277D00F50098D563 /* words.txt */; };
+		F5AFAF07277D0CB50098D563 /* finishedwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5AFAF06277D0CB50098D563 /* finishedwords.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A3D0A82777F201008BAE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A3D0892777F201008BAE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A3D0902777F201008BAE0E;
+			remoteInfo = "Syllabite UI & Package Testing";
+		};
+		F5A3D0B22777F201008BAE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A3D0892777F201008BAE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A3D0902777F201008BAE0E;
+			remoteInfo = "Syllabite UI & Package Testing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A3D0912777F201008BAE0E /* Syllabite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syllabite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3D0942777F201008BAE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A3D0962777F201008BAE0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5A3D0982777F201008BAE0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5A3D09B2777F201008BAE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A3D09D2777F201008BAE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A3D0A02777F201008BAE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A3D0A22777F201008BAE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A3D0A72777F201008BAE0E /* SyllabiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyllabiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3D0AB2777F201008BAE0E /* Syllabite_UI___Package_TestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Syllabite_UI___Package_TestingTests.swift"; sourceTree = "<group>"; };
+		F5A3D0B12777F201008BAE0E /* SyllabiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyllabiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3D0B52777F201008BAE0E /* Syllabite_UI___Package_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Syllabite_UI___Package_TestingUITests.swift"; sourceTree = "<group>"; };
+		F5A3D0B72777F201008BAE0E /* Syllabite_UI___Package_TestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Syllabite_UI___Package_TestingUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		F5AFAEFB277969440098D563 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F5AFAF04277D00F50098D563 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		F5AFAF06277D0CB50098D563 /* finishedwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = finishedwords.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A3D08E2777F201008BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AFAEF227792C6B0098D563 /* SwiftttCamera in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3D0A42777F201008BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3D0AE2777F201008BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A3D0882777F201008BAE0E = {
+			isa = PBXGroup;
+			children = (
+				F5AFAEC92779167B0098D563 /* Packages */,
+				F5A3D0932777F201008BAE0E /* Syllabite UI & Package Testing */,
+				F5A3D0AA2777F201008BAE0E /* Syllabite UI & Package TestingTests */,
+				F5A3D0B42777F201008BAE0E /* Syllabite UI & Package TestingUITests */,
+				F5A3D0922777F201008BAE0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A3D0922777F201008BAE0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3D0912777F201008BAE0E /* Syllabite.app */,
+				F5A3D0A72777F201008BAE0E /* SyllabiteTests.xctest */,
+				F5A3D0B12777F201008BAE0E /* SyllabiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A3D0932777F201008BAE0E /* Syllabite UI & Package Testing */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3D0942777F201008BAE0E /* AppDelegate.swift */,
+				F5A3D0962777F201008BAE0E /* SceneDelegate.swift */,
+				F5AFAEFB277969440098D563 /* HistoryViewController.swift */,
+				F5A3D0982777F201008BAE0E /* ViewController.swift */,
+				F5A3D09D2777F201008BAE0E /* Assets.xcassets */,
+				F5AFAF04277D00F50098D563 /* words.txt */,
+				F5AFAF06277D0CB50098D563 /* finishedwords.txt */,
+				F5A3D09A2777F201008BAE0E /* Main.storyboard */,
+				F5A3D09F2777F201008BAE0E /* LaunchScreen.storyboard */,
+				F5A3D0A22777F201008BAE0E /* Info.plist */,
+			);
+			path = "Syllabite UI & Package Testing";
+			sourceTree = "<group>";
+		};
+		F5A3D0AA2777F201008BAE0E /* Syllabite UI & Package TestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3D0AB2777F201008BAE0E /* Syllabite_UI___Package_TestingTests.swift */,
+			);
+			path = "Syllabite UI & Package TestingTests";
+			sourceTree = "<group>";
+		};
+		F5A3D0B42777F201008BAE0E /* Syllabite UI & Package TestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3D0B52777F201008BAE0E /* Syllabite_UI___Package_TestingUITests.swift */,
+				F5A3D0B72777F201008BAE0E /* Syllabite_UI___Package_TestingUITestsLaunchTests.swift */,
+			);
+			path = "Syllabite UI & Package TestingUITests";
+			sourceTree = "<group>";
+		};
+		F5AFAEC92779167B0098D563 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A3D0902777F201008BAE0E /* Syllabite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A3D0BB2777F201008BAE0E /* Build configuration list for PBXNativeTarget "Syllabite" */;
+			buildPhases = (
+				F5A3D08D2777F201008BAE0E /* Sources */,
+				F5A3D08E2777F201008BAE0E /* Frameworks */,
+				F5A3D08F2777F201008BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Syllabite;
+			packageProductDependencies = (
+				F5AFAEF127792C6B0098D563 /* SwiftttCamera */,
+			);
+			productName = "Syllabite UI & Package Testing";
+			productReference = F5A3D0912777F201008BAE0E /* Syllabite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A3D0A62777F201008BAE0E /* SyllabiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A3D0BE2777F201008BAE0E /* Build configuration list for PBXNativeTarget "SyllabiteTests" */;
+			buildPhases = (
+				F5A3D0A32777F201008BAE0E /* Sources */,
+				F5A3D0A42777F201008BAE0E /* Frameworks */,
+				F5A3D0A52777F201008BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A3D0A92777F201008BAE0E /* PBXTargetDependency */,
+			);
+			name = SyllabiteTests;
+			productName = "Syllabite UI & Package TestingTests";
+			productReference = F5A3D0A72777F201008BAE0E /* SyllabiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5A3D0B02777F201008BAE0E /* SyllabiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A3D0C12777F201008BAE0E /* Build configuration list for PBXNativeTarget "SyllabiteUITests" */;
+			buildPhases = (
+				F5A3D0AD2777F201008BAE0E /* Sources */,
+				F5A3D0AE2777F201008BAE0E /* Frameworks */,
+				F5A3D0AF2777F201008BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A3D0B32777F201008BAE0E /* PBXTargetDependency */,
+			);
+			name = SyllabiteUITests;
+			productName = "Syllabite UI & Package TestingUITests";
+			productReference = F5A3D0B12777F201008BAE0E /* SyllabiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A3D0892777F201008BAE0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F5A3D0902777F201008BAE0E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F5A3D0A62777F201008BAE0E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F5A3D0902777F201008BAE0E;
+					};
+					F5A3D0B02777F201008BAE0E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F5A3D0902777F201008BAE0E;
+					};
+				};
+			};
+			buildConfigurationList = F5A3D08C2777F201008BAE0E /* Build configuration list for PBXProject "Syllabit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A3D0882777F201008BAE0E;
+			packageReferences = (
+				F5AFAEF027792C6B0098D563 /* XCRemoteSwiftPackageReference "SwiftttCamera" */,
+			);
+			productRefGroup = F5A3D0922777F201008BAE0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A3D0902777F201008BAE0E /* Syllabite */,
+				F5A3D0A62777F201008BAE0E /* SyllabiteTests */,
+				F5A3D0B02777F201008BAE0E /* SyllabiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A3D08F2777F201008BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3D0A12777F201008BAE0E /* LaunchScreen.storyboard in Resources */,
+				F5A3D09E2777F201008BAE0E /* Assets.xcassets in Resources */,
+				F5AFAF07277D0CB50098D563 /* finishedwords.txt in Resources */,
+				F5AFAF05277D00F50098D563 /* words.txt in Resources */,
+				F5A3D09C2777F201008BAE0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3D0A52777F201008BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3D0AF2777F201008BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A3D08D2777F201008BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3D0992777F201008BAE0E /* ViewController.swift in Sources */,
+				F5A3D0952777F201008BAE0E /* AppDelegate.swift in Sources */,
+				F5A3D0972777F201008BAE0E /* SceneDelegate.swift in Sources */,
+				F5AFAEFC277969440098D563 /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3D0A32777F201008BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3D0AC2777F201008BAE0E /* Syllabite_UI___Package_TestingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3D0AD2777F201008BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3D0B82777F201008BAE0E /* Syllabite_UI___Package_TestingUITestsLaunchTests.swift in Sources */,
+				F5A3D0B62777F201008BAE0E /* Syllabite_UI___Package_TestingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A3D0A92777F201008BAE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A3D0902777F201008BAE0E /* Syllabite */;
+			targetProxy = F5A3D0A82777F201008BAE0E /* PBXContainerItemProxy */;
+		};
+		F5A3D0B32777F201008BAE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A3D0902777F201008BAE0E /* Syllabite */;
+			targetProxy = F5A3D0B22777F201008BAE0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A3D09A2777F201008BAE0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A3D09B2777F201008BAE0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A3D09F2777F201008BAE0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A3D0A02777F201008BAE0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A3D0B92777F201008BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5A3D0BA2777F201008BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A3D0BC2777F201008BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8J5L56T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Syllabite UI & Package Testing/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Syllabit;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use the text scanning function!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foli.Syllabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A3D0BD2777F201008BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8J5L56T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Syllabite UI & Package Testing/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Syllabit;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use the text scanning function!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foli.Syllabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5A3D0BF2777F201008BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8J5L56T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.Syllabite-UI---Package-TestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Syllabite.app/Syllabite";
+			};
+			name = Debug;
+		};
+		F5A3D0C02777F201008BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8J5L56T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.Syllabite-UI---Package-TestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Syllabite.app/Syllabite";
+			};
+			name = Release;
+		};
+		F5A3D0C22777F201008BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8J5L56T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.Syllabite-UI---Package-TestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Syllabite UI & Package Testing";
+			};
+			name = Debug;
+		};
+		F5A3D0C32777F201008BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8J5L56T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.Syllabite-UI---Package-TestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Syllabite UI & Package Testing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A3D08C2777F201008BAE0E /* Build configuration list for PBXProject "Syllabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3D0B92777F201008BAE0E /* Debug */,
+				F5A3D0BA2777F201008BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A3D0BB2777F201008BAE0E /* Build configuration list for PBXNativeTarget "Syllabite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3D0BC2777F201008BAE0E /* Debug */,
+				F5A3D0BD2777F201008BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A3D0BE2777F201008BAE0E /* Build configuration list for PBXNativeTarget "SyllabiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3D0BF2777F201008BAE0E /* Debug */,
+				F5A3D0C02777F201008BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A3D0C12777F201008BAE0E /* Build configuration list for PBXNativeTarget "SyllabiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3D0C22777F201008BAE0E /* Debug */,
+				F5A3D0C32777F201008BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5AFAEF027792C6B0098D563 /* XCRemoteSwiftPackageReference "SwiftttCamera" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rogerluan/SwiftttCamera";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5AFAEF127792C6B0098D563 /* SwiftttCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5AFAEF027792C6B0098D563 /* XCRemoteSwiftPackageReference "SwiftttCamera" */;
+			productName = SwiftttCamera;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5A3D0892777F201008BAE0E /* Project object */;
+}

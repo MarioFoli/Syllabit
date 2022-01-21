@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftttCamera",
+        "repositoryURL": "https://github.com/rogerluan/SwiftttCamera",
+        "state": {
+          "branch": "master",
+          "revision": "8c418c68a20b990c94644add4906d74d94592a80",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
